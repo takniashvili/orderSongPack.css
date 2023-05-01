@@ -1,0 +1,139 @@
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 100%;
+}
+
+main {
+    font-family: Red Hat Display;
+    margin:auto;
+    margin-top:70px;
+    width: 450px;
+    height: 697px;
+    background-color: white;
+    border-radius: 20px; 
+}
+
+.padding {
+    padding: 48px;
+}
+.mainpicture {
+    width: 450px;
+    height: 220px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 37px;
+    font-size: 28px;
+    color: #1F2E55;
+    font-weight: 900;
+}
+
+p {
+    display:Flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: #717FA6;
+    height: 78px;
+    text-align: center;
+    line-height: 26px;
+    margin-top: 20px;   
+}
+
+.annualplan {
+    margin-top: 20px;
+    border-radius: 11px;
+    background-color: #F7F9FF;
+    height: 48px;
+    padding: 30px 0;
+}
+
+.musicicon {
+    position: absolute;
+    margin-left: 30px;
+    height: 48px;
+    width: 48px;
+}
+
+
+h2 {
+    display:Flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    font-weight: 900;
+    color: #1F2E55;
+    font-size: 16px;
+}
+
+h3 {
+    display:Flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #717FA6;
+}
+
+h4 {
+    display:Flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    color: #382AE1;
+    font-weight: 700;   
+    font-size: 14px;
+}
+
+button {
+    margin-top: 20px;
+    background: #382AE1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 11px;
+    height: 50px;
+    width: 354px;
+    border: none;
+    
+}
+
+h5 {
+    font-family: Red Hat Display;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+}
+
+h6 {
+    display: Flex;
+    justify-content: center;
+    margin-top: 35px;
+    color: #717FA6;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+h6:hover {
+    cursor: pointer;
+    color: #1F2E55;
+}
+
+h5:hover {
+    cursor: pointer;
+}
+
+h4:hover {
+    cursor: pointer;
+    color: #766CF1;
+}
+
+button:hover {
+    background-color: #766CF1;
+}
